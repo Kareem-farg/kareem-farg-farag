@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">i
+</head>
+
+<div class="overlay">
+    <div class="first">
+        <center>
+            <h1>
+                <font color="green"> fixology car service </font>
+            </h1>
+        </center>
+    </div>
+    <p>
+    <h2>welcome to fixology car service we will care of your car </h2>
+    <h2>we work every day</h2>
+    </p>
+    <table border="2" ; width="100%">
+        <caption>
+            <h3>services list</h3>
+        </caption>
+        <tr>
+            <th>name of service</th>
+            <th>availbel time</th>
+            <th>price</th>
+        </tr>
+        <tr>
+            <td>change oil</td>
+            <td>9am:1pm</td>
+            <td><a href="">20$</a></td>
+        </tr>
+
+        <tr>
+            <td>wash car</td>
+            <td>9am:6pm</td>
+            <td><a href="">10$</a></td>
+        </tr>
+        <tr>
+            <td>check engine</td>
+            <td>4pm:7pm</td>
+            <td> <a href="">25$</a></td>
+        </tr>
+        <tr>
+            <td>Checked with a fault detection device</td>
+            <td>3pm:6pm</td>
+            <td><a href="">15$</a></td>
+        </tr>
+        <tr>
+            <td>full check to car</td>
+            <td>2pm:7pm</td>
+            <td> <a href="#">40$</a></td>
+        </tr>
+
+        <tr>
+            <td>Inflating nitrogen or air tires</td>
+            <td>24h</td>
+            <td> <a href="#">1$</a></td>
+        </tr>
+    </table>
+
+    <hr>
+    <hr>
+    <form method="get">
+        <fieldset>
+            <legend>form to book</legend>
+            <div class="second">
+                <caption>
+                    <h3>add your enformation to book services</h3>
+                </caption>
+                <label>fullname</label>
+                <input type="text" required placeholder="username" name="username" autofocus>
+
+                <div>
+                    <label>E-mail</label>
+                    <input type="email" required placeholder="write a vailed E-mail@" name="E-mail">
+                </div>
+                <div>
+                    <label>your number</label>
+                    <input type="text" required placeholder="write your number" minlength="11" maxlength="11"
+                        name="telephone number">
+                </div>
+
+                <div>
+                    <label>choose color of your car</label>
+                    <input type="color" name="color">
+                    <br>
+
+                </div>
+                <br>
+
+                <label for="cars">choose your car:</label>
+               
+                <select name="cars" id="cars">
+                    <optgroup label="the greatest">
+                        <option value="lancer">lancer </option>
+                        <option value="kIA">KIA 'bride'</option>
+                    </optgroup>
+                    <optgroup label="another">
+                        <option value="chery">chery</option>
+                        <option value="bmw">bmw</option>
+                        <option value="volvo">volvo</option>
+                        <option value="fiat">fiat</option>
+                        <option value="audi">audi</option>
+                        <option value="jeep">jeep</option>
+                        <option value="skoda">skoda</option>
+                        <option value="nissan">nissan</option>
+                        <option value="renault">renault</option>
+                        <option value="opel">opel</option>
+                    </optgroup>
+                </select>
+                <br>
+                <label>the model of your car</label>
+                <input type="text" placeholder="like sunny">
+                <br>
+                <label>Choose the year the car was released </label>
+                <input type="number" min="2005" max="2025">
+                <br>
+                <label>if you have a photo and you want to do something like it uploud file html</label>
+                <input type="file" accept=".html">
+                <br>
+                <label for="">Choose the day that suits you </label>
+                <input type="date">
+                <br>
+                <label>choose time that your service is availbel in (from services list)</label>
+                <input type="time">
+                <h3>choose the service </h3>
+                <h4>
+                    <marquee>(You can choose one service at a time )</marquee>
+                </h4>
+                <input type="radio" name="fav" value="wash car" id="car wash">
+                <label for="car wash">wash car</label>
+                <br>
+                <input type="radio" name="fav" value="Inflating nitrogen or air tires"
+                    id="Inflating nitrogen or air tires">
+                <label for="Inflating nitrogen or air tires">Inflating nitrogen or air tires</label>
+                <br>
+                <input type="radio" name="fav" value="change oil" id="change oil">
+                <label for="change oil">change oil</label>
+                <br>
+                <input type="radio" name="fav" value="check engine" id="check engine">
+                <label for="check engine">check engine</label>
+                <br>
+                <input type="radio" name="fav" value="Checked with a fault detection device"
+                    id="Checked with a fault detection device">
+                <label for="Checked with a fault detection device">Checked with a fault detection device</label>
+                <br>
+                <input type="radio" name="fav" value="full check" id="full check">
+                <label for="full check">full check</label>
+                <br>
+                <textarea placeholder="you have any comment?" maxlength="200" cols="50" rows="10"></textarea>
+                <br>
+                <input type="submit"><input type="reset" value="Reset">
+            </div>
+            <hr>
+            <footer>
+                <a href="https://www.facebook.com/?locale=ar_AR" target="_blank" title="our page on facebook">facebook</a>
+                <a href="https://www.instagram.com/" target="_blank" title="our page on insta">instagram</a>
+                <a href="mailto:kymwfrg514@gmail.com" title="mail">contact us</a>
+            </footer>
+        </form>
+        
+        </fieldset>
+        </div>
+</body>
+
+</html>
